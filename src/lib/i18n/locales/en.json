@@ -1,0 +1,88 @@
+{
+  "app": {
+    "name": "BackupYourAI",
+    "description": "Local backup and restore tool"
+  },
+  "nav": {
+    "backup": "Backup",
+    "restore": "Restore",
+    "config": "Config"
+  },
+  "backup": {
+    "title": "Backup",
+    "subtitle": "Select files and folders to backup",
+    "pathsTitle": "Paths to Backup",
+    "pathsSubtitle": "Select which folders and files to include in your backup",
+    "addCustomPath": "Add custom path...",
+    "browse": "Browse",
+    "add": "Add",
+    "outputTitle": "Output Location",
+    "outputPlaceholder": "Select output directory...",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All",
+    "selectedCount": "{count} items selected",
+    "startBackup": "Start Backup",
+    "backupComplete": "Backup Complete!",
+    "backupFailed": "Backup Failed",
+    "itemsBackedUp": "Items backed up: {count}",
+    "totalSize": "Total size: {size}",
+    "skipped": "Skipped: {count}",
+    "compressing": "Compressing...",
+    "noOutputDir": "Please select an output directory first",
+    "noSelectedPaths": "Please select paths to backup first"
+  },
+  "restore": {
+    "title": "Restore",
+    "subtitle": "Restore files from backup archives",
+    "selectFile": "Select Backup File",
+    "selectFileSubtitle": "Choose a backup archive (.zip) to restore from",
+    "selectFileButton": "Select Backup File",
+    "createdAt": "Created",
+    "platform": "Platform",
+    "itemsTitle": "Items to Restore",
+    "itemsSubtitle": "Select which items to restore. Showing backup name and target path.",
+    "warning": "If target folder/file already exists, it will be renamed to folder_backup_YYYYMMDD_HHMMSS before restoration",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All",
+    "startRestore": "Start Restore",
+    "restoreComplete": "Restore Complete!",
+    "restoreFailed": "Restore Failed",
+    "restored": "Restored: {count}",
+    "failed": "Failed: {count}",
+    "skipped": "Skipped: {count}",
+    "restoring": "Restoring...",
+    "targetNotFound": "(Target path not found in config)"
+  },
+  "config": {
+    "title": "Config",
+    "subtitle": "View and manage backup configuration",
+    "totalPaths": "{count} paths total",
+    "categories": {
+      "aiTools": "AI Tools",
+      "gitSsh": "Git/SSH",
+      "devConfig": "Dev Config",
+      "shellNotes": "Shell/Notes",
+      "userAdded": "User Added",
+      "uncategorized": "Uncategorized"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close",
+    "size": "Size",
+    "folder": "Folder",
+    "file": "File"
+  },
+  "errors": {
+    "pathNotExist": "Path does not exist",
+    "pathNotDirectory": "Path is not a directory",
+    "pathAlreadyAdded": "Path already added",
+    "failedToLoad": "Failed to load",
+    "failedToBackup": "Failed to backup",
+    "failedToRestore": "Failed to restore"
+  }
+}

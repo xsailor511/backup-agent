@@ -1,0 +1,88 @@
+{
+  "app": {
+    "name": "AI资产备份",
+    "description": "本地备份与恢复工具"
+  },
+  "nav": {
+    "backup": "备份",
+    "restore": "恢复",
+    "config": "配置"
+  },
+  "backup": {
+    "title": "备份",
+    "subtitle": "选择要备份的文件和文件夹",
+    "pathsTitle": "待备份路径",
+    "pathsSubtitle": "选择要包含在备份中的文件夹和文件",
+    "addCustomPath": "添加自定义路径...",
+    "browse": "浏览",
+    "add": "添加",
+    "outputTitle": "输出位置",
+    "outputPlaceholder": "选择输出目录...",
+    "selectAll": "全选",
+    "deselectAll": "取消全选",
+    "selectedCount": "已选择 {count} 项",
+    "startBackup": "开始备份",
+    "backupComplete": "备份完成！",
+    "backupFailed": "备份失败",
+    "itemsBackedUp": "已备份项目：{count}",
+    "totalSize": "总大小：{size}",
+    "skipped": "已跳过：{count}",
+    "compressing": "正在压缩...",
+    "noOutputDir": "请先选择输出目录",
+    "noSelectedPaths": "请先选择要备份的路径"
+  },
+  "restore": {
+    "title": "恢复",
+    "subtitle": "从备份归档中恢复文件",
+    "selectFile": "选择备份文件",
+    "selectFileSubtitle": "选择一个备份归档 (.zip) 进行恢复",
+    "selectFileButton": "选择备份文件",
+    "createdAt": "创建时间",
+    "platform": "平台",
+    "itemsTitle": "待恢复项目",
+    "itemsSubtitle": "选择要恢复的项目，显示备份名称和目标路径",
+    "warning": "如果目标文件夹/文件已存在，将先重命名为 folder_backup_YYYYMMDD_HHMMSS 再恢复",
+    "selectAll": "全选",
+    "deselectAll": "取消全选",
+    "startRestore": "开始恢复",
+    "restoreComplete": "恢复完成！",
+    "restoreFailed": "恢复失败",
+    "restored": "已恢复：{count}",
+    "failed": "失败：{count}",
+    "skipped": "已跳过：{count}",
+    "restoring": "正在恢复...",
+    "targetNotFound": "（目标路径未在配置中找到）"
+  },
+  "config": {
+    "title": "配置",
+    "subtitle": "查看和管理备份配置",
+    "totalPaths": "共 {count} 个路径",
+    "categories": {
+      "aiTools": "AI 工具",
+      "gitSsh": "Git/SSH",
+      "devConfig": "开发配置",
+      "shellNotes": "Shell/笔记",
+      "userAdded": "用户添加",
+      "uncategorized": "未分类"
+    }
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功",
+    "cancel": "取消",
+    "confirm": "确认",
+    "close": "关闭",
+    "size": "大小",
+    "folder": "文件夹",
+    "file": "文件"
+  },
+  "errors": {
+    "pathNotExist": "路径不存在",
+    "pathNotDirectory": "路径不是文件夹",
+    "pathAlreadyAdded": "路径已添加",
+    "failedToLoad": "加载失败",
+    "failedToBackup": "备份失败",
+    "failedToRestore": "恢复失败"
+  }
+}

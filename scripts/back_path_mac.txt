@@ -1,0 +1,46 @@
+# Mac 备份路径配置文件
+# 每行一个目录路径，支持绝对路径和 ~
+# 以 # 开头的是注释，会被忽略
+# 路径中的 ~ 会被自动替换为用户目录
+
+# ==================== AI 开发工具配置 ====================
+~/.claude
+~/.claude.json
+~/.codex
+~/.gemini
+~/.iflow
+~/.opencode
+~/.cursor
+~/.windsurf
+~/.cline
+~/.ollama
+~/.cherrystudio
+~/.continue
+~/.kode
+~/.kode.json
+~/Library/Application\ Support/cline/MCP\ Settings
+
+# ==================== Git 和 SSH 配置 ====================
+~/.gitconfig
+~/.gitignore_global
+~/.attributes_global
+~/.ssh
+
+# ==================== 开发工具配置 ====================
+~/.config
+~/.vscode
+~/.npmrc
+~/.yarnrc
+~/.nuxtrc
+~/.condarc
+
+# ==================== Obsidian 配置 ====================
+~/Library/Application\ Support/obsidian
+
+# ==================== Docker 配置 ====================
+~/.docker
+
+# ==================== Shell 历史 ====================
+~/.bash_history
+~/.zsh_history
+~/.oh-my-zsh
